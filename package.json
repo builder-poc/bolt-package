@@ -1,0 +1,23 @@
+{
+  "name": "@builder-poc/bolt-package",
+  "version": "1.0.0",
+  "description": "Bolt package for Builder PoC",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/builder-poc/bolt-package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/builder-poc/bolt-package/issues"
+  },
+  "homepage": "https://github.com/builder-poc/bolt-package#readme"
+}

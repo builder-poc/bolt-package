@@ -1,0 +1,83 @@
+@forward "@nationwide-bolt/bolt-core-scss/dist/scss/tokens";
+@use "@nationwide-bolt/bolt-core-scss/dist/scss/tokens" as Core;
+
+////
+// All items below are DEPRECATED
+// Some may be safe to remove, others may need to stick around until Bolt 8.
+////
+
+
+/// blend.* (DEPRECATED)
+// TODO: [v7.0] replace internal usage with v7 design tokens
+//       (Safe to remove in Bolt 7.0.0)
+$blend-tint-20: #ffffff 20%;
+$blend-tint-40: #ffffff 40%;
+$blend-tint-60: #ffffff 60%;
+$blend-shade-20: #171717 20%;
+$blend-shade-40: #171717 40%;
+
+
+////
+// theme.*
+////
+// TODO: [v7.x] replace with v7 design tokens
+// TODO: [v8.0] remove in Bolt 8.0
+$theme-background: Core.$theme-surface;
+$theme-onBackground: Core.$theme-onSurface;
+$theme-onLight: Core.$ui-onLight;
+$theme-onDark: Core.$ui-onDark;
+$theme-surfaceVariant: Core.$theme-surfaceContainer;
+
+
+////
+// theme.accent.* (DEPRECATED)
+////
+/// TODO: [v7.x] replace internal usage with v7 design tokens
+/// TODO: [v8.0] remove in Bolt 8.0
+$theme-accent-default: Core.$theme-accent;
+$theme-accent-onLight: Core.$palette-paleGray;
+$theme-accent-onDark: Core.$ui-onDark;
+$theme-accent-onBackground: $theme-accent-default;
+$theme-accent-onSurface: $theme-accent-default;
+$theme-accent-onSurfaceVariant: $theme-accent-default;
+$theme-accent-onPrimary: Core.$theme-onPrimary;
+$theme-accent-onPrimaryContainer: $theme-accent-default;
+$theme-accent-onSecondary: Core.$theme-onSecondary;
+$theme-accent-onSecondaryContainer: $theme-accent-default;
+$theme-accent-onTertiary: Core.$theme-onTertiary;
+$theme-accent-onTertiaryContainer: $theme-accent-default;
+$theme-accent-onError: Core.$theme-onError;
+$theme-accent-onErrorContainer: $theme-accent-default;
+$theme-accent-onInfo: Core.$theme-onInfo;
+$theme-accent-onInfoContainer: $theme-accent-default;
+$theme-accent-onSuccess: Core.$theme-onSuccess;
+$theme-accent-onSuccessContainer: $theme-accent-default;
+$theme-accent-onWarning: Core.$theme-onWarning;
+$theme-accent-onWarningContainer: $theme-accent-default;
+
+////
+// theme.link.* (DEPRECATED)
+////
+// TODO: [v7.x] replace internal usage with v7 design tokens
+// TODO: [v8.0] remove in Bolt 8
+$theme-link-default: Core.$theme-link;
+$theme-link-onLight: Core.$ui-onLight;
+$theme-link-onDark: Core.$ui-onDark;
+$theme-link-onBackground: $theme-link-default;
+$theme-link-onSurface: $theme-link-default;
+$theme-link-onSurfaceVariant: $theme-link-default;
+$theme-link-onPrimary: Core.$theme-onPrimary;
+$theme-link-onPrimaryContainer: $theme-link-default;
+$theme-link-onSecondary: Core.$theme-onSecondary;
+$theme-link-onSecondaryContainer: $theme-link-default;
+$theme-link-onTertiary: Core.$theme-onTertiary;
+$theme-link-onTertiaryContainer: $theme-link-default;
+$theme-link-onError: Core.$theme-onError;
+$theme-link-onErrorContainer: $theme-link-default;
+$theme-link-onInfo: Core.$theme-onInfo;
+$theme-link-onInfoContainer: $theme-link-default;
+$theme-link-onSuccess: Core.$theme-onSuccess;
+$theme-link-onSuccessContainer: $theme-link-default;
+$theme-link-onWarning: Core.$theme-onWarning;
+$theme-link-onWarningContainer: $theme-link-default;
+
