@@ -1,1 +1,1 @@
-module.exports = {};
+import "./bundle-core/bolt-core.mjs";
