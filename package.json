@@ -1,11 +1,12 @@
 {
   "name": "@builder-poc/bolt-package",
-  "version": "7.0.0",
+  "version": "7.0.2",
   "main": "./dist/index.js",
   "files": ["dist"],
   "exports": {
     ".": "./dist/index.js",
     "./bundle-core": "./dist/bundle-core/bolt-core.mjs",
-    "./css-core": "./dist/css/bolt-core.css"
+    "./css-core": "./dist/css/bolt-core.css",
+    "./builder-ready": "./dist/builder-ready.js"
   }
 }
